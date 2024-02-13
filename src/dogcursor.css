@@ -1,0 +1,31 @@
+.trailElement {
+  transform: translate(-50%, -50%);
+  /*position: absolute;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 10%;
+  pointer-events: none;
+  z-index: 1;
+  position: relative;
+}
+
+.trailElement#trail_0 {
+  background-image: url("../public/cursorimgs/ball.png");
+  transition: 0.1s;
+  width: 50px;
+  height: 20px;
+}
+
+.trailElement#trail_1 {
+  background-image: url("../public/cursorimgs/dog.png");
+  transition: 0.2s;
+  width: 100px;
+  height: 60px;
+  margin-left: -40px;
+}
+
+.trailElement.left {
+  transform: translate(-50%, -50%) scaleX(-1);
+  margin-left: -80px;
+}

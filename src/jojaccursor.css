@@ -1,0 +1,40 @@
+.trailElement {
+  transform: translate(-50%, -50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  width: 100px;
+  height: 60px;
+  pointer-events: none;
+  z-index: 1;
+  /*margin-right: 10px;*/
+  position: relative;
+}
+
+.trailElement#trail_0 {
+  background-image: url("../public/cursorimgs/home-2.png");
+  transition: 0.1s;
+  width: 100px;
+  height: 60px;
+}
+
+.trailElement#trail_1 {
+  background-image: url("../public/cursorimgs/shibainu.png");
+  transition: 0.2s;
+  width: 100px;
+  height: 40px;
+}
+
+.trailElement#trail_2 {
+  background-image: url("../public/cursorimgs/paw.png");
+  transition: 0.3s;
+  width: 100px;
+  height: 40px;
+}
+
+.trailElement#trail_3 {
+  background-image: url("../public/cursorimgs/poodle.png");
+  transition: 0.4s;
+  width: 100px;
+  height: 50px;
+}

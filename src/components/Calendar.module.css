@@ -1,0 +1,95 @@
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #f9a24bcb;
+  border-radius: 50%;
+  margin: 0;
+}
+.custom-tile {
+  position: relative;
+}
+.custom-tile .dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.calanderPlusDetailsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+}
+.calanderPlusDetails {
+  display: flex;
+  align-items: center;
+}
+.calendarDetails {
+  padding: 5px 0 0 20px;
+  border-left: 4px ridge rgb(205, 94, 38);
+}
+
+.calendar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 30px;
+}
+.calendarTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: rgb(70, 30, 10);
+  padding: 20px;
+}
+
+/* right section  */
+.calendarDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 40vw;
+}
+
+.calendar-month {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(169, 62, 9);
+}
+.eventLocation {
+  color: rgb(202, 124, 52);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.eventDate {
+  border-bottom: 3px dotted rgb(188, 179, 179);
+  font-weight: 400;
+  color: rgb(70, 30, 10);
+  /* padding: 3px; */
+}
+:global(.react-calendar) {
+  max-width: 400px;
+  max-height: 400px;
+  color: #222;
+  border-radius: 10px;
+  border: transparent;
+}
+:global(.react-calendar__navigation__label) {
+  color: #f9a24bcb;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+:global(.react-calendar__tile--now) {
+  background-color: wheat;
+  border-radius: 50%;
+}
+:global(.react-calendar__till) {
+  max-width: 40px;
+  max-height: 40px;
+  padding: 0;
+}

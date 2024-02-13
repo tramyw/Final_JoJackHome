@@ -1,0 +1,75 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  margin: 30px 20px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+.detective-dog {
+  max-width: 150px;
+  max-height: 150px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: auto;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#found-pet {
+  border: 5px dotted rgb(250, 220, 180);
+  background-color: #fff;
+  width: fit-content;
+  padding: 0 10px 0 0;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(70, 30, 10);
+}
+#found-pet:hover {
+  background-color: rgb(255, 224, 100);
+  border: 5px dotted #fff;
+}
+
+#icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+#lost-pet {
+  border: 5px dotted rgb(250, 220, 180);
+  background-color: #f9a24bcb;
+  width: fit-content;
+  padding: 0 10px 0 0;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(70, 30, 10);
+}
+
+#lost-pet:hover {
+  background-color: rgb(255, 224, 100);
+  border: 5px dotted #fff;
+}

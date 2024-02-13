@@ -1,0 +1,28 @@
+.trailElement {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 10%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.trailElement#trail_0 {
+  background-image: url("../public/cursorimgs/mouse.png");
+  transition: 0.1s;
+  width: 50px;
+  height: 20px;
+}
+
+.trailElement#trail_1 {
+  background-image: url("../public/cursorimgs/cat.png");
+  transition: 0.4s;
+  width: 80px;
+  height: 60px;
+}
+
+.trailElement.right {
+  transform: translate(-50%, -50%) scaleX(-1);
+}

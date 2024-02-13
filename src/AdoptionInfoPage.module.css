@@ -1,0 +1,106 @@
+.bg-wrapper {
+  justify-self: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  background-image: url(../public/BeforeadoptImgs/adoptionpagebg.png);
+}
+
+.adoptionheading {
+  text-align: center;
+}
+
+.headingcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.Info-content {
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.awaitinglistbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.adoptionheading {
+  text-align: center;
+}
+
+#custom-button {
+  background-color: #9ed3f8;
+  color: #2364aa;
+  margin-bottom: 40px;
+}
+
+#custom-button:hover {
+  background-color: #efebce;
+}
+
+.Info-heading {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #a53f2b;
+}
+
+.precautions {
+  display: flex;
+  justify-content: center;
+  color: #4c230a;
+}
+
+.attention {
+  font-size: 12px;
+  font-weight: 600;
+  color: #280004;
+}
+
+.awaitinglistbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .precautions {
+    margin: 15px;
+  }
+  .Info-content {
+    line-height: 25px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .bg-wrapper {
+    background-size: 100%;
+    background-position-x: 100%;
+    object-fit: fill;
+  }
+
+  .precautions {
+    margin: 15px;
+  }
+
+  .Info-content {
+    line-height: 25px;
+    font-size: 12px;
+  }
+}

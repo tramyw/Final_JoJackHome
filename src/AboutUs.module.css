@@ -1,0 +1,192 @@
+.title-About-Us {
+  text-align: center;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.about-us-photo-1 {
+  width: 300px;
+  height: 500px;
+}
+
+.about-us-1 {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.about-us-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-photo-2 {
+  width: 400px;
+  height: 500px;
+}
+
+.about-us-para-1 {
+  display: flex;
+  align-items: center;
+}
+.about-us-para-2 {
+  display: flex;
+  align-items: center;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+}
+.para-title {
+  color: #a94a52;
+}
+
+.para-content {
+  color: #6e6e6e;
+  max-width: 500px;
+}
+
+.logocontainer {
+  /* background-color: #ffaec9;*/
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.allLogos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contactUs-wrapper {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 10px 0 0 0; */
+
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  background-image: url("../public/StarPetImgs/star-bg.png");
+  object-fit: cover;
+  background-size: 100%;
+  /* position: relative; */
+  margin: 30px 0 0 0;
+  padding: 30px;
+}
+
+.contactUs-info-bg {
+  background-color: rgba(255, 248, 239, 0.5);
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-Title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  padding: 10px 0;
+  color: rgb(70, 30, 10);
+  flex: 1;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactUsIcon {
+  width: 20px;
+  padding-right: 10px;
+}
+.contact-Image {
+  height: 200px;
+}
+.contact-Info {
+  color: #a94a52;
+}
+.contact-Details {
+  font-weight: 800;
+  display: flex;
+  align-content: center;
+}
+
+@media (min-width: 1280px) {
+  .about-us-1 {
+    flex-direction: row;
+  }
+  .about-us-2 {
+    flex-direction: row;
+  }
+  .about-us-para-1 {
+    margin-left: 20px;
+  }
+  .about-us-para-2 {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+  .about-us-1 {
+    flex-direction: column;
+  }
+  .about-us-2 {
+    flex-direction: column;
+  }
+  .about-us-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+  .about-us-para-2 {
+    justify-content: center;
+  }
+  .about-us-para-1 {
+    justify-content: center;
+  }
+  .allLogos {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 959px) {
+  .about-us-1 {
+    flex-direction: column;
+  }
+  .about-us-2 {
+    flex-direction: column;
+  }
+  .about-us-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+  .about-us-para-2 {
+    justify-content: center;
+  }
+  .about-us-para-1 {
+    justify-content: center;
+  }
+  .allLogos {
+    flex-wrap: wrap;
+  }
+}

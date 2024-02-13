@@ -1,0 +1,7 @@
+.social-icon {
+  transition: 0.5s;
+}
+
+.social-icon:hover {
+  transform: translateY(-10px);
+}

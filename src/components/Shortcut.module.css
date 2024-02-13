@@ -1,0 +1,53 @@
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 30px 0px 30px;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  padding: 10px 0;
+  color: rgb(70, 30, 10);
+}
+.pet-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+}
+.dog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(70, 30, 10);
+}
+.dog-icon {
+  max-width: 100px;
+  object-fit: cover;
+}
+
+.cat-icon {
+  max-width: 100px;
+  object-fit: cover;
+}
+.num-info {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.num {
+  font-size: 2rem;
+  color: rgb(155, 60, 25);
+}
+.cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(70, 30, 10);
+}

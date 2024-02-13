@@ -1,0 +1,187 @@
+.star-wrapper {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  background-image: url("../../public/StarPetImgs/star-bg.png");
+  object-fit: cover;
+  background-size: 100%;
+  position: relative;
+}
+.pet-star {
+  width: 100vw;
+  height: 500px;
+}
+
+.pet-of-the-day {
+  width: 100%;
+}
+
+.star-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.star-photo {
+  max-width: 40%;
+  max-height: 80%;
+  object-fit: cover;
+  border-radius: 30px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.3));
+}
+.info-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-background {
+  width: 60vw;
+  max-width: 700px;
+  min-width: 580px;
+  position: relative;
+}
+.info {
+  position: absolute;
+  max-width: 380px;
+  min-width: 250px;
+  color: rgb(70, 30, 10);
+}
+.text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  padding: 10px 0;
+}
+.call-to-action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 20px;
+  gap: 20px;
+}
+
+.frame.upper-right {
+  height: 40%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.frame.bottom-left {
+  height: 80%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.frame.bottom {
+  display: none;
+}
+#about-me {
+  border: 5px dotted rgb(250, 220, 180);
+  background-color: #f9a24bcb;
+  width: fit-content;
+  padding: 0 10px 0 0;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(70, 30, 10);
+}
+#about-me:hover {
+  background-color: rgb(255, 224, 100);
+  border: 5px dotted #fff;
+}
+#about-me-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px 5px 10px 10px;
+}
+
+#more-pet {
+  border: 5px dotted rgb(250, 220, 180);
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 0 10px 0 0;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(70, 30, 10);
+}
+#more-pet:hover {
+  background-color: rgb(255, 224, 100);
+  border: 5px dotted #fff;
+}
+#pets-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+@media only screen and (max-width: 1020px) {
+  .star-container {
+    height: fit-content;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .star-photo {
+    max-height: 50vh;
+    min-height: 40vh;
+    min-width: 40vw;
+  }
+
+  .pet-star {
+    width: 100vw;
+    height: fit-content;
+  }
+  .frame.upper-right {
+    height: 30%;
+  }
+  .frame.bottom-left {
+    display: none;
+  }
+  .frame.bottom {
+    display: block;
+    width: 100vw;
+  }
+  .info-wrapper {
+    margin: -8% 0 7% 0;
+  }
+  @media only screen and (max-width: 420px) {
+    .text {
+      font-size: 1.2rem;
+      line-height: 1.68rem;
+      padding: 10px 20px;
+    }
+    .info {
+      margin: 30px 0;
+    }
+    .star-container {
+      height: fit-content;
+      padding: 40px 0 0 0;
+      background-size: 100%;
+      position: relative;
+    }
+    .frame.upper-right {
+      height: 20%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .text-background {
+      min-height: 400px;
+      position: relative;
+    }
+    .info-wrapper {
+      margin: -8% 0 3% 0;
+    }
+    .frame.upper-right {
+      height: 15%;
+    }
+  }
+}
