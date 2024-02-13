@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Final_JoJackHome/static/css/main.5db35f6f.css",
+    "main.js": "/Final_JoJackHome/static/js/main.788fe831.js",
+    "static/js/787.cc633b69.chunk.js": "/Final_JoJackHome/static/js/787.cc633b69.chunk.js",
+    "static/media/star-bg.png": "/Final_JoJackHome/static/media/star-bg.9d03ba5d52f0964c1ef8.png",
+    "static/media/adoptionpagebg.png": "/Final_JoJackHome/static/media/adoptionpagebg.25c3a029f4e35db661ef.png",
+    "static/media/cat.png": "/Final_JoJackHome/static/media/cat.57ea2a4fc2dbf317c0c4.png",
+    "static/media/jojachomelogo.png": "/Final_JoJackHome/static/media/jojachomelogo.95c8bb511b118938e36a.png",
+    "static/media/dog_1049342.svg": "/Final_JoJackHome/static/media/dog_1049342.53cfe40e2c8780c37962c964bfc96b5d.svg",
+    "static/media/Outline_jojachome.png": "/Final_JoJackHome/static/media/Outline_jojachome.a4aed397c7df99daa9c8.png",
+    "static/media/FB.svg": "/Final_JoJackHome/static/media/FB.65bb306e1cd8e0237ceceac67d1ee8de.svg",
+    "index.html": "/Final_JoJackHome/index.html",
+    "static/media/IG.svg": "/Final_JoJackHome/static/media/IG.a63c9476fa83b33ffc32894544c5ccb7.svg",
+    "static/media/X.svg": "/Final_JoJackHome/static/media/X.8f8dd8b68ebd953e9501d7b63112e23f.svg",
+    "main.5db35f6f.css.map": "/Final_JoJackHome/static/css/main.5db35f6f.css.map",
+    "main.788fe831.js.map": "/Final_JoJackHome/static/js/main.788fe831.js.map",
+    "787.cc633b69.chunk.js.map": "/Final_JoJackHome/static/js/787.cc633b69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5db35f6f.css",
+    "static/js/main.788fe831.js"
+  ]
+}
